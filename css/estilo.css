@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header, footer{
+    background-color:rgba(26, 202, 26, 0.7);
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+    padding:10px 0px;
+}	
+
+footer{
+    background-color: #204956;
+}	
+
+.parrafo{
+    width:500px;
+    background-color:#90EE90;
+    color:#00f;
+    text-align: center;
+    margin: 10px auto; /* Centrar los párrafos */
+    padding: 10px;
+}
+
+.parrafo2{
+    width:500px;
+    background-color:#820f65;
+    color:#ffffff;
+    text-align: right;
+    margin: 10px auto; /* Centrar los párrafos */
+    padding: 10px;
+}
+
+.nuevo{
+    height:50px;
+    margin:0 auto;
+    background-color: #deb887;
+}
+
+.contenido{
+    height:300px;
+    background-color:#ffbb00;
+    text-align:center;
+    color:#fff;
+    padding: 20px;
+}
+
+section{
+    margin: 10px auto;
+    border: 2px solid #1bb432;
+    width: 80%;
+    padding: 10px;
+}
+
+article{
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #8a2be2;
+    text-align: center;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.encabezado{
+    text-align: center;
+    background-color: #eaf914;
+    color: #046118;
+    padding: 10px;
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    color: #6b098c;
+    line-height: 200px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+/* Estilos para las imágenes */
+section img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
